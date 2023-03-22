@@ -1,1 +1,20 @@
+Q. Explain in detail the area graphs and line graphs in tableau and how to create them with examples. (With the help of an example create one in tableau)
+Ans- An area chart is a line chart where the area between the line and the axis are shaded with a color. These charts are typically used to represent accumulated totals over time and are the conventional way to display stacked lines.
+      Line charts connect individual data points in a view. They provide a simple way to visualize a sequence of values and are useful when you want to see trends over time, or to forecast future values. 
+     To create a view that displays the sum of sales and the sum of profit for all years, and then uses forecasting to determine a trend, follow these steps:
+Connect to the Sample - Superstore data source.
+Drag the Order Date dimension to Columns.
+Tableau aggregates the date by year, and creates column headers.
+Drag the Sales measure to Rows.
+Tableau aggregates Sales as SUM and displays a simple line chart.
+Drag the Profit measure to Rows and drop it to the right of the Sales measure.
+Tableau creates separate axes along the left margin for Sales and Profit.
+
+
+Q.2. What are the different steps in grouping fields and combining tables in tableau ? Explain with examples. (With the help of an example create one in tableau)
+Ans-- 
+
+
+
+
 
